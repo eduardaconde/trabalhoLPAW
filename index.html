@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css.css" rel="stylesheet" />
+    <title>Canvas</title>
+
+    <style type="text/css">
+        canvas { border: 1px solid black; }
+       
+    </style>
+</head>
+
+<body>
+    
+    
+    
+    <div id="inst"> 
+        <h3>INSTRUÇÕES</h3>
+        <h4> - APERTE ENTER PARA INICIAR</h4>
+        <h4> - Você precisa pegar as maçãs;</h4>
+        <h4> - Para cada maçã perdida, você perde uma vida;</h4>
+    </div>
+    
+    <div id="info"></div>
+    
+    <canvas tabindex="1" id="exemplo" width="600" height="600">
+    
+        <audio id="audioFundo">
+        <source src="audios/musica.mp3" type="audio/mp3"/>
+    </audio>
+        
+        
+    </canvas>
+    <div id="botoes">
+         <button id = "btOnOff" class="btOnOff" onclick="ligaDesligaMusica()">Ligar/Desligar Áudio</button>
+        
+    </div> 
+      
+    <audio id="audioColeta">
+        <source src="audios/coleta.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="audioMorreu">
+        <source src="audios/morreu.mp3" type="audio/mp3"/>
+    </audio>
+     <script src="funcoes.js"></script>
+    
+</body>
+
+</html>

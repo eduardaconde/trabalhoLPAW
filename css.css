@@ -1,0 +1,37 @@
+canvas{ 
+    background-image: url(inicio.png);
+    border: 2px solid black;
+}
+
+ #info { 
+     width: 600px;
+     font-size: 25px;
+     background-color: white;
+     border: none;
+     font-family: cursive;
+}
+#botoes {
+    background-color: white;
+    border: none;
+    font-family: cursive;
+    float:none;
+    
+}
+.btOnOff {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  background-color:#2f198a;
+  border-color: #2f198a;
+  color: lightblue;
+  text-decoration: none;
+  font-family: cursive;
+      
+}
+#inst {
+    width: 600px;
+    border: 1px;
+    font-family: cursive;
+    text-align: center;
+        
+}
